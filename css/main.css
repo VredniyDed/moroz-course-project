@@ -1,0 +1,303 @@
+body{
+	
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	padding: 0;
+	margin: 0;
+
+}
+
+div,p,input,button,span,a,ul,li {
+	box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+
+}
+p{
+	line-height: 1.66em;
+}
+
+.container {
+
+	width: 1170px;
+	margin: 0 auto;
+}
+header{
+	background: rgba(78,191,254,1);
+	background: -moz-linear-gradient(-45deg, rgba(78,191,254,1) 0%, rgba(55,143,217,1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(78,191,254,1)), color-stop(100%, rgba(55,143,217,1)));
+	background: -webkit-linear-gradient(-45deg, rgba(78,191,254,1) 0%, rgba(55,143,217,1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(78,191,254,1) 0%, rgba(55,143,217,1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(78,191,254,1) 0%, rgba(55,143,217,1) 100%);
+	background: linear-gradient(135deg, rgba(78,191,254,1) 0%, rgba(55,143,217,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ebffe', endColorstr='#378fd9', GradientType=1 );	
+	padding-top: 65px;
+	color: white;
+	padding-bottom: 140px;
+}
+
+.wrapper{
+    align-items:center;
+	display: flex;
+	justify-content: space-between;
+}
+.offer {
+	/* margin-top: 140px; */
+	width: 582px;
+}
+
+
+.title span{
+	font-size: 59px;
+}
+.intro{
+	margin-top: 40px;
+	margin-bottom: 46px;
+	width: 430px;
+}
+
+.btn {
+	background: #ffd420;
+	color: black;
+	display: block;
+	width: 240px;
+	padding: 20px 0;
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	transition: all 0.5s ease;
+}
+.btn:hover {
+	background: #d9860e;
+}
+.desktop {
+	margin-top: 62px;
+	margin-left: 20px;
+}
+.section-title{
+	font-size: 30px;
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+
+}
+
+.future {
+	padding-top: 110px;
+	padding-bottom: 117px;
+}
+.advantages{
+	margin-top: 67px;
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+.advantage {
+	
+	width: 289px;
+
+}
+
+h3 .title{
+	
+	margin: 0;
+	font-size: 19px;
+}
+
+
+.description {
+    
+	
+	margin-top: 10px;
+	font-size: 15px;
+	/* padding-left: 65px;
+	padding-right: 65px; */
+	/*width: 304px;*/
+	/*font-family: 'Ubuntu', sans-serif;*/
+}
+
+.img{
+	height: 85px;
+	/*height: 65px;
+	width: 63px;*/
+	padding-bottom: 25px;
+}
+
+.mail {
+	/*flex-direction: column */
+	background: #ecf3f8;
+	padding-top: 105px;
+	padding-bottom: 105px;
+	text-align: center;
+	/*margin-top: 62px;*/
+	/*padding-top: 60px;*/
+}
+
+.input {
+	
+	width: 350px;
+	border: 1px solid #bbb;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;
+	height: 46px;
+	padding-left: 24px;
+	border-radius: 3px;
+	margin-bottom: 15px;
+
+}
+
+form {
+    
+	margin-top: 62px;
+    /* display: block; */
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.btn-down {
+	width: 350px;
+	border: 0;
+	display: inline-block;
+	cursor: pointer;
+}
+footer {
+	background: #164d7a;
+
+}
+
+.credits {
+	text-align: center;
+	margin: 0;
+	padding-top: 90px;
+	padding-bottom: 90px;
+	font-size: 14px;
+	color: white;
+}
+
+.dis-third {
+    
+    padding-left: 63px;
+    padding-right: 70px;
+}
+.dis-second {
+    
+    padding-left: 20px;
+    padding-right: 30px;
+    
+}
+.dis-first {
+    
+   padding-left: 55px;
+   padding-right: 75px;
+}
+
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 960px;
+	}
+
+	.main_icon {
+		width: 535px;
+	}
+
+	.wrapper {
+		margin-top: 80px;
+	}
+	
+	 
+
+}
+@media screen and (max-width: 992px) {
+	.container {
+		width: 720px;
+	}
+	.wrapper {
+flex-direction: column;
+	}
+	.advantege{
+
+		width: 240px;
+
+	}
+	.advantages{
+	text-align: left;
+	flex-direction: column;
+	margin-top: 67px;
+    justify-content: space-between;
+	}
+	    
+	.dis-third {
+    
+    padding-left: 0;
+    padding-right: 0;
+}
+.dis-second {
+    
+    padding-left: 0;
+    padding-right: 0;
+    
+}
+.dis-first {
+    
+    padding-left: 0;
+    padding-right: 0;
+}
+.main_icon {
+    width: 450px;
+}
+.offer {
+	width: auto;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+	.container {
+		width: 540px;
+	}
+
+	.offer {
+    margin-top: 140px;
+    width: auto;
+	}
+	.advantages{
+
+		padding-left: 20px;
+	}
+
+	.form {
+		align-items: center;
+	}
+	
+
+}
+@media screen and (max-width: 576px) {
+	.container {
+		width: auto;
+	}
+	.main_icon {
+    width: 250px;
+}
+.form {
+	width: 300px;
+}
+.input {
+    width: 300px;
+}
+.btn-down {
+    width: 300px;
+    }
+
+    .offer {
+    
+    width: 285px;
+}
+.intro{
+	width: 300px
+}
+}
